@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dt=$(date +"%a,%b %e,%Y")
+echo $dt

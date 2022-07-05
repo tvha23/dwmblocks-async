@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if [ $(amixer get Master | tail -2 | grep -c '\[on\]') -eq 1 ]; then
+	vol=$(amixer get Master | awk '$0~/%/{print $4}' | tr -d '[]')
+	echo "墳$vol"
+else
+	echo "婢 MM"
+fi

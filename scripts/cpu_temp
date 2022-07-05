@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cpu_temp=$(sed 's/000$/°C/' /sys/class/thermal/thermal_zone0/temp)
+icon=""
+echo "$icon$cpu_temp"
