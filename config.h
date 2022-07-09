@@ -1,7 +1,5 @@
 #define CMDLENGTH 60
 #define DELIMITER "  "
-#define CLICKABLE_BLOCKS
-
 const Block blocks[] = {
         BLOCK("~/.config/dwmblocks-async/scripts/curr_song",      0,    3),
         BLOCK("~/.config/dwmblocks-async/scripts/volume",         0,    1),
